@@ -1,0 +1,59 @@
+body,html{
+  background-image: linear-gradient(142deg,#cc851a, #5410f4);
+    font-family: "Lato", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+.screen-wrapper{
+  background-color: rgba(23, 21, 21, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 1000px;
+    text-align: center;
+}
+.otp-container{
+width: 800px;
+padding: 20px;
+border: 2px solid black;
+border-radius: 10px;
+text-align: center;
+justify-content: center;
+}
+.otp-input{
+  caret-color: transparent;
+  background-color: rgba(216, 21, 21, 0.6);
+  border-radius: 10px;
+  border: 1px solid #eee;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  width: 75px;
+  height: 80px;
+  margin: 10px;
+  text-align: center;
+  font-weight: 300;
+}
+.foot-note{
+  background-color: #eeeeee;
+  color: #999;
+  width: 400px;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 8px;
+}
+ 
+  
+  .btn-btn-primary {
+    background-color: #664caf;
+   
+  }
+  .btn-btn-Resend{
+    background-color: #b7a78f;
+  }
+ .foot-note{
+  background-color: #664caf;
+ }

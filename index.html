@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Verification Account UI</title>
+    <title>Html Css Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h2> Verify Your Account</h2>
-        <p>" We emailed you the six digit code to personal@email.com "
-            <br>
-            " Enter the code below to confirm your email address "
-        </p>
-        <div class="code-container">
-            <input type="number" class="code" placeholder="0" min="0" max="9" required />
-            <input type="number" class="code" placeholder="0" min="0" max="9" required />
-            <input type="number" class="code" placeholder="0" min="0" max="9" required />
-            <input type="number" class="code" placeholder="0" min="0" max="9" required />
-            <input type="number" class="code" placeholder="0" min="0" max="9" required />
-            <input type="number" class="code" placeholder="0" min="0" max="9" required />
+    <div class="screen-wrapper">
+        <div class="otp-container">
+            <h3>Verify Your Account</h3>
+            <div class="discription-container">
+                <p class="discription">we emailed you the six digit code to anybody@gmail.com
+                <br>
+                Enter the code below to confirm your email address</p>
+                <div class="input-container">
+                <input class="otp-input" type="text" placeholder="0" maxlength="1" autofocus>
+                <input class="otp-input" type="text" placeholder="0" maxlength="1">
+                <input class="otp-input" type="text" placeholder="0" maxlength="1">
+                <input class="otp-input" type="text" placeholder="0" maxlength="1">
+                <input class="otp-input" type="text" placeholder="0" maxlength="1">
+                <input class="otp-input" type="text" placeholder="0" maxlength="1"> 
+                </div>
+                <div>
+                    <br>
+                    <button type="button" class="btn-btn-primary">Verify</button>
+                </div>
+                <small class="info">
+                   <h3> if you do not received code then resend after 30 secs </h3>
+                    <br>
+                    <strong><button type="button resend" class="btn-btn-Resend">Resend</button></strong>
+                </small>
+                <div class="foot-note">
+                    This is made by only design purpose
+                    <br>
+                    Thank you for visit this page
+                </div>
+            </div>
+            
         </div>
-        <div>
-            <button type="button" class="btn-btn-primary">Verify</button>
-        </div>
-        <small class="info">
-            " If you didn't receive a code !! "
-            <strong>Resend</strong>
-        </small>
     </div>
-    <script src="app.js"></script>
 </body>
 </html>
